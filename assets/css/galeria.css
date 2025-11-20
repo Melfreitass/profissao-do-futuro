@@ -36,14 +36,6 @@ header {
     margin-right: 7vh;
 }
 
-main {
-    height: 89vh;
-    background-color: rgb(9, 56, 78);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .link {
     text-decoration: none;
     color: white;
@@ -55,32 +47,46 @@ main {
 }
 
 main {
+    width: 100%;
+    padding: 40px 0;
+    background-color: rgb(9, 56, 78);
+}
+
+main h1 {
+    font-family: "Jost", sans-serif;
+    font-size: 3vh;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.galeria {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 230px;  
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.galeria img:hover {
+    transform: scale(1.03);
+}
+
+footer {
+    height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: baseline;
+    justify-content: center;
     flex-direction: column;
-}
-
-#titulo {   
-    margin: 2vh;
-}
-
-#camiseta {
-    width: 10vh;
-}
-
-#casa {
-    width: 10vh;
-}
-
-#crea {
-    width: 10vh;
-}
-
-#grupo-pessoas {
-    width: 10vh;
-}
-
-#panobianco {
-    width: 10vh;
+    background-color: rgb(57, 86, 139);
+    color: white;
+    gap: 1vh;
+    font-family: "Jost", sans-serif;
 }
