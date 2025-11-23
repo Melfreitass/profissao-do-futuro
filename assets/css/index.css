@@ -171,3 +171,155 @@ footer {
     transform:scale(1.1);
 }
 
+/*Responsividade*/
+
+@media (max-width: 1024px) {
+
+    #apresentacao {
+        width: 95%;
+        height: auto;
+        flex-direction: row;
+        gap: 4vh;
+    }
+
+    #img-titulo {
+        height: 55vh;
+        border-radius: 10vh;
+    }
+
+    #titulo {
+        font-size: 6vh;
+        border-radius: 10vh;
+    }
+
+    #espaco-texto {
+        width: 50%;
+    }
+
+    #texto {
+        font-size: 2.2vh;
+    }
+
+    #texto-navegue {
+        font-size: 2.4vh;
+    }
+
+    #navegacao {
+        font-size: 1.8vh;
+        gap: 4vh;
+    }
+
+    header {
+        height: 10vh;
+    }
+
+    #imagem-logo {
+        width: 8vh;
+        margin-right: 4vh;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        height: 10vh;
+        justify-content: space-between;
+    }
+
+    #navegacao {
+        gap: 3vh;
+        margin-left: 3vh;
+        font-size: 1.7vh;
+    }
+
+    #imagem-logo {
+        width: 7vh;
+        margin-right: 3vh;
+    }
+
+    #apresentacao {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+
+    #img-titulo {
+        width: 80%;
+        height: 45vh;
+        border-radius: 8vh;
+    }
+
+    #titulo {
+        font-size: 5vh;
+        border-radius: 8vh;
+    }
+
+    #espaco-texto {
+        width: 90%;
+        text-align: center;
+    }
+
+    #texto {
+        margin: 3vh;
+        font-size: 2vh;
+    }
+
+    #texto-navegue {
+        font-size: 2.2vh;
+    }
+
+    main {
+        height: auto;
+        padding-top: 6vh;
+        padding-bottom: 6vh;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header {
+        height: 8vh;
+    }
+
+    #navegacao {
+        gap: 2vh;
+        margin-left: 2vh;
+        font-size: 1.5vh;
+        text-decoration-thickness: 1.5px;
+    }
+
+    #imagem-logo {
+        width: 6vh;
+        margin-right: 2vh;
+    }
+
+    #apresentacao {
+        width: 100%;
+        gap: 3vh;
+    }
+
+    #img-titulo {
+        width: 90%;
+        height: 40vh;
+        border-radius: 6vh;
+    }
+
+    #titulo {
+        font-size: 4vh;
+        border-radius: 6vh;
+    }
+
+    #espaco-texto {
+        width: 100%;
+    }
+
+    #texto,
+    #texto-navegue {
+        font-size: 1.8vh;
+        margin: 2vh;
+    }
+
+    #simbolo {
+        height: 15vh;
+    }
+}
